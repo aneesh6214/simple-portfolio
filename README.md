@@ -61,7 +61,7 @@ Ensure you have the following installed on your machine:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/my-portfolio.git
+   git clone https://github.com/aneesh6214/simple-portfolio.git
    ```
 
 2. **Navigate to the Project Directory:**

@@ -17,13 +17,12 @@ const About: React.FC = () => {
       </span>
       {isReadMore && (
         <>
-          <br />
           Born and raised in the San Francisco Bay Area, I've had exposure to
-          the multiple aspects of the tech industry.
+          the multiple aspects of the tech industry. Not only do I have the technical skill, but <span className="about-text-emphasis"> I am a creative & articulate engineer </span> with an emphasis on communication and collaboration.
           <br />
           <br />
-          In my free time, I enjoy watching TV/Movies, playing videogames, going
-          to music shows, and hiking.
+          <span className="about-text-emphasis">Aside from my time in the tech world-</span> I enjoy watching TV, playing videogames, going
+          to concerts, and hiking.
         </>
       )}
       <br />

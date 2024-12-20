@@ -1,36 +1,86 @@
 @import "../styles/variables";
 
 .experience-item {
-  font-size: $font-size-small;
-  color: $color-text;
+    font-size: $font-size-small;
+    color: $color-text;
+    margin-bottom: 20px;
 }
 
 .experience-title {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .job-title {
-  font-weight: bold;
-  font-size: $font-size-medium;
+    font-weight: bold;
+    font-size: $font-size-medium;
 }
 
 .job-duration {
-  font-style: italic;
+    color: $color-accent-alt;
+    font-weight: $font-weight-bold;
 }
 
 .experience-technologies {
-  font-style: italic;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 .experience-description {
-  list-style-type: disc;
-  padding-left: 40px;
-  margin-bottom: 10px;
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 10px;
 
-  li {
-    margin-bottom: 5px;
+    li {
+        margin-bottom: 5px;
+        color: $color-text;
+    }
+}
+
+.experience-long-description {
+    margin-bottom: 10px;
     color: $color-text;
-  }
+
+    strong {
+        color: $color-accent;
+    }
+
+    em {
+        color: $color-accent-alt;
+    }
+
+    br {
+        margin-bottom: 1em;
+    }
+
+    width: 100%;
+}
+
+.read-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: $color-accent;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 2px;
+    font-size: $font-size-xsmall;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: $color-accent;
+        transition: width 0.3s;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
 }
