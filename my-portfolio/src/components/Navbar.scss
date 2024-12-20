@@ -1,0 +1,44 @@
+@import '../styles/variables';
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+    a {
+        position: relative;
+        margin-right: 20px;
+        text-decoration: none;
+        color: $color-text;
+        cursor: pointer;
+        transition: color 0.3s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 0;
+            height: 4px;
+            background-color: $color-accent;
+            transition: width 0.3s;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    .location-icon {
+        color: $color-accent;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+
+    .location-text {
+        margin-left: auto;
+        color: $color-text;
+    }
+}
