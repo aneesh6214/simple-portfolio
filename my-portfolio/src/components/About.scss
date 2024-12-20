@@ -1,37 +1,37 @@
-@import '../styles/variables';
+@import "../styles/variables";
 
 .about-text {
-    font-size: $font-size-medium;
+  font-size: $font-size-medium;
 
-    .read-more-btn {
-        position: relative;
-        margin-top: 10px;
-        background: none;
-        border: none;
-        color: $color-text-light;
-        cursor: pointer;
-        font-size: $font-size-xsmall;
+  .read-more-btn {
+    position: relative;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: $color-text-light;
+    cursor: pointer;
+    font-size: $font-size-xsmall;
 
-        &::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: -4px;
-            width: 0;
-            height: 2px;
-            background-color: $color-text-light;
-            transition: width 0.3s;
-        }
-
-        &:hover {
-            &::after {
-                width: 100%;
-            }
-        }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background-color: $color-text-light;
+      transition: width 0.3s;
     }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .about-text-emphasis {
-    font-weight: $font-weight-bold;
-    color: $color-accent;
+  font-weight: $font-weight-bold;
+  color: $color-accent;
 }

@@ -1,25 +1,25 @@
-@import '../styles/variables';
+@import "../styles/variables";
 
 .typewriter {
-    font-size: $font-size-title;
-    font-weight: bold;
-    color: $color-primary;
-    position: relative;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+  font-size: $font-size-title;
+  font-weight: bold;
+  color: $color-primary;
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 
-    &:before {
-        content: '>\a0';
-    }
+  &:before {
+    content: ">\a0";
+  }
 }
 
 .typewriter span {
-    background-color: $color-primary;
-    animation: caret 1s steps(1) infinite;
+  background-color: $color-primary;
+  animation: caret 1s steps(1) infinite;
 }
 
 @keyframes caret {
-    50% {
-        background-color: transparent;
-    }
+  50% {
+    background-color: transparent;
+  }
 }

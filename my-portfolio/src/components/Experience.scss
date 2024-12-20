@@ -1,36 +1,36 @@
-@import '../styles/variables';
+@import "../styles/variables";
 
 .experience-item {
-    font-size: $font-size-small;
-    color: $color-text;
+  font-size: $font-size-small;
+  color: $color-text;
 }
 
 .experience-title {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .job-title {
-    font-weight: bold;
-    font-size: $font-size-medium;
+  font-weight: bold;
+  font-size: $font-size-medium;
 }
 
 .job-duration {
-    font-style: italic;
+  font-style: italic;
 }
 
 .experience-technologies {
-    font-style: italic;
+  font-style: italic;
 }
 
 .experience-description {
-    list-style-type: disc;
-    padding-left: 40px;
-    margin-bottom: 10px;
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 10px;
 
-    li {
-        margin-bottom: 5px;
-        color: $color-text;
-    }
+  li {
+    margin-bottom: 5px;
+    color: $color-text;
+  }
 }

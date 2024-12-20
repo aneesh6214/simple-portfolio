@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Navbar from './components/Navbar.tsx';
-import Typewriter from './components/Typewriter.tsx';
-import About from './components/About.tsx';
-import Experience from './components/Experience.tsx';
-import Projects from './components/Projects.tsx';
-import Contact from './components/Contact.tsx';
+import Navbar from "./components/Navbar.tsx";
+import Typewriter from "./components/Typewriter.tsx";
+import About from "./components/About.tsx";
+import Experience from "./components/Experience.tsx";
+import Projects from "./components/Projects.tsx";
+import Contact from "./components/Contact.tsx";
 
-import './styles/App.scss';
+import "./styles/App.scss";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Contact /> 
+      <Contact />
     </div>
   );
 }
