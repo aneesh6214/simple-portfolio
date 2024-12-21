@@ -9,6 +9,7 @@ const Navbar: React.FC = () => {
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
             <span className="location-text"> San Francisco Bay Area </span>
             <FaMapMarkerAlt className="location-icon" />
         </div>

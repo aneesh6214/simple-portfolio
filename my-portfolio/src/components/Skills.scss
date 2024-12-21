@@ -1,0 +1,50 @@
+@import "../styles/variables";
+
+#skills {
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .skill-category {
+            background: $color-background;
+            border-radius: 8px;
+            flex: 1 1 35%;
+            min-width: 280px;
+
+            h3 {
+                display: flex;
+                align-items: center;
+                font-size: $font-size-medium;
+                color: $color-text;
+                margin-bottom: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    color: $color-primary;
+                }
+            }
+
+            .skills-list {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+
+                li {
+                    background: $color-text;
+                    color: #fff;
+                    display: inline-block;
+                    padding: 5px 10px;
+                    border-radius: 20px;
+                    font-size: $font-size-xsmall;
+                }
+            }
+        }
+    }
+}
