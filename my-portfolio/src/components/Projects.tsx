@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Live Demo <FaLink className="link-icon" />
+                                        {project.liveDemoLabel ? project.liveDemoLabel : "Demo"} <FaLink className="link-icon" />
                                     </a>
                                 </li>
                             )}

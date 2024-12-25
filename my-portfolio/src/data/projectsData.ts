@@ -2,6 +2,7 @@ export interface Project {
     title: string;
     type: string;
     technologies: string;
+    liveDemoLabel?: string;
     liveDemo?: string;
     github: string;
     description: string[];
@@ -23,6 +24,7 @@ export const projects: Project[] = [
         title: "Simple Hardware Monitor",
         type: "System Utility",
         technologies: "Python, PyInstaller, Windows Operating System, Resource Path Handling, Git",
+        liveDemoLabel: "Release V1.0",
         liveDemo: "https://github.com/aneesh6214/simple-HW-monitor/releases/tag/V1.0",
         github: "https://github.com/aneesh6214/simple-HW-monitor",
         description: [
@@ -35,6 +37,7 @@ export const projects: Project[] = [
         title: "Videosharing Web App",
         type: "Full Stack",
         technologies: "Vue.js, Handelbars, HTML/CSS/JS, Node.js, Express.js, MySQL",
+        liveDemoLabel: "Video Demo",
         liveDemo: "https://youtu.be/1aQBrA4lg40",
         github: "https://github.com/aneesh6214/csc317-web-app-aneesh6214",
         description: [
