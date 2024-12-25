@@ -20,13 +20,24 @@ export const projects: Project[] = [
         ],
     },
     {
+        title: "Simple Hardware Monitor",
+        type: "System Utility",
+        technologies: "Python, PyInstaller, Windows Operating System, Resource Path Handling, Git",
+        github: "https://github.com/aneesh6214/simple-HW-monitor",
+        description: [
+            "Designed and Developed a lightweight system monitoring application in Python using Tkinter, enabling real-time display of CPU and GPU temperatures with customizable 50% opacity overlay in the top-right screen corner.",
+            "Integrated OpenHardwareMonitor’s API to retrieve and parse hardware metrics, enhancing user experience through a seamless system tray interface that allows easy toggling (Show/Hide) and exiting of the application.",
+            "Packaged the application into a standalone executable using PyInstaller, managing dependencies and ensuring user-friendly deployment by incorporating necessary resources and optimizing for performance."
+        ],
+    },
+    {
         title: "Videosharing Web App",
         type: "Full Stack",
         technologies: "Vue.js, Handelbars, HTML/CSS/JS, Node.js, Express.js, MySQL",
         liveDemo: "https://youtu.be/1aQBrA4lg40",
         github: "https://github.com/aneesh6214/csc317-web-app-aneesh6214",
         description: [
-            "Ideated, designed, and built a user-friendly video-sharing web application for sharing and managing videos, complete with secure user authentication and personalized sessions.",
+            "Designed and built a user-friendly video-sharing web application for sharing and managing videos, complete with secure user authentication and personalized sessions.",
             "Implemented file uploads with Multer and FFMpeg-static for video processing, enabling efficient video storage and playback.",
         ],
     },
