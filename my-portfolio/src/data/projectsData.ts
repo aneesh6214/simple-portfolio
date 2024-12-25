@@ -23,6 +23,7 @@ export const projects: Project[] = [
         title: "Simple Hardware Monitor",
         type: "System Utility",
         technologies: "Python, PyInstaller, Windows Operating System, Resource Path Handling, Git",
+        liveDemo: "https://github.com/aneesh6214/simple-HW-monitor/releases/tag/V1.0",
         github: "https://github.com/aneesh6214/simple-HW-monitor",
         description: [
             "Designed and Developed a lightweight system monitoring application in Python using Tkinter, enabling real-time display of CPU and GPU temperatures with customizable 50% opacity overlay in the top-right screen corner.",
