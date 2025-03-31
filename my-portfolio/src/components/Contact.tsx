@@ -15,10 +15,6 @@ const Contact: React.FC = () => {
                     </a>
                 </li>
                 <li>
-                    <MdPhone className="contact-icon" />
-                    <a href="tel:+1234567890">+1 (510) 378-3594</a>
-                </li>
-                <li>
                     <FaLinkedin className="contact-icon" />
                     <a
                         href="https://www.linkedin.com/in/aneesh6214"
